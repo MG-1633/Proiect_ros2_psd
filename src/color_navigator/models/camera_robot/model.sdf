@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='camera_robot'>
+    <static>false</static>
+    <link name='chassis'>
+      <pose>0 0 0.1 0 0 0</pose>
+      <collision name='collision'>
+        <geometry>
+          <box>
+            <size>0.5 0.3 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <box>
+            <size>0.5 0.3 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Gray</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+    <link name='wheel_left'>
+      <pose>0.25 0.15 0.05 0 0 0</pose>
+      <collision name='collision'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name='wheel_right'>
+      <pose>-0.25 0.15 0.05 0 0 0</pose>
+      <collision name='collision'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='visual'>
+        <geometry>
+          <cylinder>
+            <radius>0.05</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name='joint_left' type='revolute'>
+      <parent>chassis</parent>
+      <child>wheel_left</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-10</lower>
+          <upper>10</upper>
+        </limit>
+      </axis>
+    </joint>
+
+    <joint name='joint_right' type='revolute'>
+      <parent>chassis</parent>
+      <child>wheel_right</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-10</lower>
+          <upper>10</upper>
+        </limit>
+      </axis>
+    </joint>
+
+    <link name='camera_link'>
+      <pose>0 0 0.15 0 0 0</pose>
+      <sensor name='camera' type='camera'>
+        <pose>0 0 0 0 0 0</pose>
+        <camera>
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+        </camera>
+        <plugin name='camera_plugin' filename='libgazebo_ros_camera.so'>
+          <ros>
+            <namespace>/</namespace>
+          </ros>
+          <cameraName>camera</cameraName>
+          <imageTopicName>/camera/image_raw</imageTopicName>
+          <imageWidth>640</imageWidth>
+          <imageHeight>480</imageHeight>
+          <updateRate>30.0</updateRate>
+        </plugin>
+      </sensor>
+    </link>
+
+    <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+      <left_joint>joint_left</left_joint>
+      <right_joint>joint_right</right_joint>
+      <wheel_separation>0.5</wheel_separation>
+      <wheel_radius>0.05</wheel_radius>
+      <cmd_vel_topic>/cmd_vel</cmd_vel_topic>
+      <odom_topic>/odom</odom_topic>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <update_rate>100</update_rate>
+    </plugin>
+  </model>
+</sdf>

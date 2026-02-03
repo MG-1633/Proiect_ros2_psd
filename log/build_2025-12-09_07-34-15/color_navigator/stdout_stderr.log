@@ -1,0 +1,25 @@
+running develop
+running egg_info
+writing color_navigator.egg-info/PKG-INFO
+writing dependency_links to color_navigator.egg-info/dependency_links.txt
+writing entry points to color_navigator.egg-info/entry_points.txt
+writing requirements to color_navigator.egg-info/requires.txt
+writing top-level names to color_navigator.egg-info/top_level.txt
+reading manifest file 'color_navigator.egg-info/SOURCES.txt'
+writing manifest file 'color_navigator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color-navigator.egg-link (link to .)
+Installing color_detector script to /home/maze/ros2_ws/install/color_navigator/bin
+Installing robot_controller script to /home/maze/ros2_ws/install/color_navigator/bin
+
+Installed /home/maze/ros2_ws/build/color_navigator
+running symlink_data
+symbolically linking /home/maze/ros2_ws/build/color_navigator/resource/color_navigator -> /home/maze/ros2_ws/install/color_navigator/share/ament_index/resource_index/packages
+symbolically linking /home/maze/ros2_ws/build/color_navigator/package.xml -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator
+symbolically linking /home/maze/ros2_ws/build/color_navigator/launch/navigate_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+symbolically linking /home/maze/ros2_ws/build/color_navigator/launch/Maps_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+symbolically linking /home/maze/ros2_ws/build/color_navigator/models/colored_box/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+symbolically linking /home/maze/ros2_ws/build/color_navigator/models/colored_box/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+symbolically linking /home/maze/ros2_ws/build/color_navigator/models/camera_robot/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+symbolically linking /home/maze/ros2_ws/build/color_navigator/models/camera_robot/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+symbolically linking /home/maze/ros2_ws/build/color_navigator/worlds/box_world.world -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/worlds

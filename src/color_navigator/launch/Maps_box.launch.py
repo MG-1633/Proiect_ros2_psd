@@ -1,0 +1,1 @@
+# The file /color_navigator/color_navigator/launch/Maps_box.launch.py is intentionally left blank.

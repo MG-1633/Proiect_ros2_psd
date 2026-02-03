@@ -1,0 +1,19 @@
+<package format="2">
+  <name>color_navigator</name>
+  <version>0.0.1</version>
+  <description>A ROS2 package for navigating and detecting colors in a Gazebo simulation.</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+  <build_type>ament_python</build_type>
+  
+  <buildtool_depend>ament_python</buildtool_depend>
+  
+  <build_depend>rclpy</build_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  
+  <test_depend>pytest</test_depend>
+</package>

@@ -1,0 +1,1 @@
+/home/maze/ros2_ws/build/color_navigator/launch/navigate_box.launch.py

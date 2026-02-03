@@ -1,0 +1,67 @@
+[0.022s] Invoking command in '/home/maze/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:/home/maze/ros2_ws/install/dynamixel_sdk:/home/maze/ros2_ws/install/turtlebot3:/home/maze/ros2_ws/install/turtlebot3_simulations:/home/maze/ros2_ws/install/turtlebot3_bringup:/home/maze/ros2_ws/install/turtlebot3_node:/home/maze/ros2_ws/install/turtlebot3_navigation2:/home/maze/ros2_ws/install/turtlebot3_fake_node:/home/maze/ros2_ws/install/turtlebot3_manipulation_gazebo:/home/maze/ros2_ws/install/turtlebot3_gazebo:/home/maze/ros2_ws/install/turtlebot3_description:/home/maze/ros2_ws/install/turtlebot3_cartographer:/home/maze/ros2_ws/install/dynamixel_sdk_examples:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/maze/ros2_ws/install/turtlebot3_teleop:/home/maze/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:/home/maze/ros2_ws/install/dynamixel_sdk/lib:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maze/ros2_ws/build/turtlebot3_node -- -j20 -l20
+[0.269s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.269s] -- Found dynamixel_sdk: 3.8.4 (/home/maze/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.269s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.269s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.269s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.270s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+[0.316s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.468s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.485s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.501s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.517s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[0.522s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.616s] -- Found turtlebot3_msgs: 2.4.0 (/home/maze/ros2_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[0.713s] -- Configuring done
+[0.733s] -- Generating done
+[0.739s] -- Build files have been written to: /home/maze/ros2_ws/build/turtlebot3_node
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[0.838s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[0.838s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[0.838s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[0.842s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[0.842s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[0.842s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[0.843s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[0.844s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[0.847s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[0.848s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[0.848s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[16.590s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[17.001s] [ 85%] Built target turtlebot3_node_lib
+[17.022s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_ros[0m
+[17.040s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[18.969s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[20.090s] [100%] Built target turtlebot3_ros
+[20.100s] Invoked command in '/home/maze/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:/home/maze/ros2_ws/install/dynamixel_sdk:/home/maze/ros2_ws/install/turtlebot3:/home/maze/ros2_ws/install/turtlebot3_simulations:/home/maze/ros2_ws/install/turtlebot3_bringup:/home/maze/ros2_ws/install/turtlebot3_node:/home/maze/ros2_ws/install/turtlebot3_navigation2:/home/maze/ros2_ws/install/turtlebot3_fake_node:/home/maze/ros2_ws/install/turtlebot3_manipulation_gazebo:/home/maze/ros2_ws/install/turtlebot3_gazebo:/home/maze/ros2_ws/install/turtlebot3_description:/home/maze/ros2_ws/install/turtlebot3_cartographer:/home/maze/ros2_ws/install/dynamixel_sdk_examples:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/maze/ros2_ws/install/turtlebot3_teleop:/home/maze/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:/home/maze/ros2_ws/install/dynamixel_sdk/lib:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/maze/ros2_ws/build/turtlebot3_node -- -j20 -l20
+[20.101s] Invoking command in '/home/maze/ros2_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:/home/maze/ros2_ws/install/dynamixel_sdk:/home/maze/ros2_ws/install/turtlebot3:/home/maze/ros2_ws/install/turtlebot3_simulations:/home/maze/ros2_ws/install/turtlebot3_bringup:/home/maze/ros2_ws/install/turtlebot3_node:/home/maze/ros2_ws/install/turtlebot3_navigation2:/home/maze/ros2_ws/install/turtlebot3_fake_node:/home/maze/ros2_ws/install/turtlebot3_manipulation_gazebo:/home/maze/ros2_ws/install/turtlebot3_gazebo:/home/maze/ros2_ws/install/turtlebot3_description:/home/maze/ros2_ws/install/turtlebot3_cartographer:/home/maze/ros2_ws/install/dynamixel_sdk_examples:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/maze/ros2_ws/install/turtlebot3_teleop:/home/maze/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:/home/maze/ros2_ws/install/dynamixel_sdk/lib:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maze/ros2_ws/build/turtlebot3_node
+[20.107s] -- Install configuration: ""
+[20.107s] -- Execute custom install script
+[20.107s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[20.108s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[20.108s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[20.108s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[20.108s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[20.108s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[20.109s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[20.109s] -- Symlinking: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[20.116s] -- Up-to-date symlink: /home/maze/ros2_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[20.118s] Invoked command in '/home/maze/ros2_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:/home/maze/ros2_ws/install/dynamixel_sdk:/home/maze/ros2_ws/install/turtlebot3:/home/maze/ros2_ws/install/turtlebot3_simulations:/home/maze/ros2_ws/install/turtlebot3_bringup:/home/maze/ros2_ws/install/turtlebot3_node:/home/maze/ros2_ws/install/turtlebot3_navigation2:/home/maze/ros2_ws/install/turtlebot3_fake_node:/home/maze/ros2_ws/install/turtlebot3_manipulation_gazebo:/home/maze/ros2_ws/install/turtlebot3_gazebo:/home/maze/ros2_ws/install/turtlebot3_description:/home/maze/ros2_ws/install/turtlebot3_cartographer:/home/maze/ros2_ws/install/dynamixel_sdk_examples:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/maze/ros2_ws/install/turtlebot3_teleop:/home/maze/ros2_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:/home/maze/ros2_ws/install/dynamixel_sdk/lib:/home/maze/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/maze/ros2_ws/build/turtlebot3_node

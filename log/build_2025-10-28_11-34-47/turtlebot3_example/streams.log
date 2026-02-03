@@ -1,0 +1,29 @@
+[0.501s] Invoking command in '/home/maze/ros2_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maze/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maze/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.705s] running develop
+[0.824s] running egg_info
+[0.824s] creating turtlebot3_example.egg-info
+[0.824s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.824s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.824s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.824s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.825s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.825s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.826s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.826s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.827s] running build_ext
+[0.828s] Creating /home/maze/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.828s] Installing turtlebot3_absolute_move script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.828s] Installing turtlebot3_interactive_marker script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.829s] Installing turtlebot3_obstacle_detection script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.829s] Installing turtlebot3_patrol_client script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.829s] Installing turtlebot3_patrol_server script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.829s] Installing turtlebot3_relative_move script to /home/maze/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.829s] 
+[0.829s] Installed /home/maze/ros2_ws/build/turtlebot3_example
+[0.829s] running symlink_data
+[0.829s] creating /home/maze/ros2_ws/install/turtlebot3_example/share/ament_index
+[0.829s] creating /home/maze/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index
+[0.829s] creating /home/maze/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.829s] symbolically linking /home/maze/ros2_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/maze/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.830s] symbolically linking /home/maze/ros2_ws/build/turtlebot3_example/package.xml -> /home/maze/ros2_ws/install/turtlebot3_example/share/turtlebot3_example
+[0.852s] Invoked command in '/home/maze/ros2_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/maze/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maze/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/maze/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data

@@ -1,0 +1,24 @@
+[1.465s] Invoking command in '/home/maze/ros2_ws/build/turtle_controller': PYTHONPATH=/home/maze/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtle_controller/build --no-deps symlink_data
+[1.826s] running develop
+[2.033s] running egg_info
+[2.033s] creating turtle_controller.egg-info
+[2.033s] writing turtle_controller.egg-info/PKG-INFO
+[2.033s] writing dependency_links to turtle_controller.egg-info/dependency_links.txt
+[2.033s] writing entry points to turtle_controller.egg-info/entry_points.txt
+[2.034s] writing requirements to turtle_controller.egg-info/requires.txt
+[2.034s] writing top-level names to turtle_controller.egg-info/top_level.txt
+[2.034s] writing manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[2.036s] reading manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[2.037s] writing manifest file 'turtle_controller.egg-info/SOURCES.txt'
+[2.039s] running build_ext
+[2.039s] Creating /home/maze/ros2_ws/install/turtle_controller/lib/python3.10/site-packages/turtle-controller.egg-link (link to .)
+[2.040s] Installing hand_control script to /home/maze/ros2_ws/install/turtle_controller/lib/turtle_controller
+[2.041s] 
+[2.041s] Installed /home/maze/ros2_ws/build/turtle_controller
+[2.041s] running symlink_data
+[2.041s] creating /home/maze/ros2_ws/install/turtle_controller/share/ament_index
+[2.041s] creating /home/maze/ros2_ws/install/turtle_controller/share/ament_index/resource_index
+[2.042s] creating /home/maze/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[2.042s] symbolically linking /home/maze/ros2_ws/build/turtle_controller/resource/turtle_controller -> /home/maze/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[2.042s] symbolically linking /home/maze/ros2_ws/build/turtle_controller/package.xml -> /home/maze/ros2_ws/install/turtle_controller/share/turtle_controller
+[2.090s] Invoked command in '/home/maze/ros2_ws/build/turtle_controller' returned '0': PYTHONPATH=/home/maze/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtle_controller/build --no-deps symlink_data

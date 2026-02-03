@@ -1,0 +1,25 @@
+[0.467s] Invoking command in '/home/maze/ros2_ws/src/color_navigator': PYTHONPATH=/home/maze/ros2_ws/build/color_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_navigator build --build-base /home/maze/ros2_ws/build/color_navigator/build install --record /home/maze/ros2_ws/build/color_navigator/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.620s] writing ../../build/color_navigator/color_navigator.egg-info/PKG-INFO
+[0.621s] writing dependency_links to ../../build/color_navigator/color_navigator.egg-info/dependency_links.txt
+[0.621s] writing entry points to ../../build/color_navigator/color_navigator.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../build/color_navigator/color_navigator.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/color_navigator/color_navigator.egg-info/top_level.txt
+[0.623s] reading manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+[0.624s] writing manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.625s] running install
+[0.625s] running install_lib
+[0.627s] running install_data
+[0.627s] copying launch/navigate_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+[0.627s] copying models/colored_box/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+[0.628s] copying models/camera_robot/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+[0.628s] running install_egg_info
+[0.629s] removing '/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator-0.0.1-py3.10.egg-info' (and everything under it)
+[0.629s] Copying ../../build/color_navigator/color_navigator.egg-info to /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator-0.0.1-py3.10.egg-info
+[0.630s] running install_scripts
+[0.647s] Installing color_detector script to /home/maze/ros2_ws/install/color_navigator/bin
+[0.647s] Installing robot_controller script to /home/maze/ros2_ws/install/color_navigator/bin
+[0.648s] writing list of installed files to '/home/maze/ros2_ws/build/color_navigator/install.log'
+[0.666s] Invoked command in '/home/maze/ros2_ws/src/color_navigator' returned '0': PYTHONPATH=/home/maze/ros2_ws/build/color_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/color_navigator build --build-base /home/maze/ros2_ws/build/color_navigator/build install --record /home/maze/ros2_ws/build/color_navigator/install.log --single-version-externally-managed install_data

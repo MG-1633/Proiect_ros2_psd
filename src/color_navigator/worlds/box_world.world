@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='default'>
+    <!-- Standard ground plane and sun -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Spawn the colored box model at (5,0,0.5) -->
+    <include>
+      <uri>model://colored_box</uri>
+      <pose>5 0 0.5 0 0 0</pose>
+    </include>
+
+    <!-- Spawn the camera robot at (0,0,0.1) -->
+    <include>
+      <uri>model://camera_robot</uri>
+      <pose>0 0 0.1 0 0 0</pose>
+    </include>
+
+    <physics type='ode'>
+      <max_step_size>0.01</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <update_rate>100.0</update_rate>
+    </physics>
+  </world>
+</sdf>

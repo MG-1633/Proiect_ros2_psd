@@ -1,0 +1,4 @@
+[console_scripts]
+color_detector = color_navigator.color_detector_node:main
+robot_controller = color_navigator.robot_controller_node:main
+

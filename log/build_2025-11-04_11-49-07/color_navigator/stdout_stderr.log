@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/color_navigator/color_navigator.egg-info
+writing ../../build/color_navigator/color_navigator.egg-info/PKG-INFO
+writing dependency_links to ../../build/color_navigator/color_navigator.egg-info/dependency_links.txt
+writing entry points to ../../build/color_navigator/color_navigator.egg-info/entry_points.txt
+writing requirements to ../../build/color_navigator/color_navigator.egg-info/requires.txt
+writing top-level names to ../../build/color_navigator/color_navigator.egg-info/top_level.txt
+writing manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+reading manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+writing manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/maze/ros2_ws/build/color_navigator/build
+creating /home/maze/ros2_ws/build/color_navigator/build/lib
+creating /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator
+copying color_navigator/__init__.py -> /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator
+copying color_navigator/color_detector_node.py -> /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator
+copying color_navigator/robot_controller_node.py -> /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator
+running install
+running install_lib
+creating /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator
+copying /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator/__init__.py -> /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator
+copying /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator/color_detector_node.py -> /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator
+copying /home/maze/ros2_ws/build/color_navigator/build/lib/color_navigator/robot_controller_node.py -> /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator
+byte-compiling /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator/color_detector_node.py to color_detector_node.cpython-310.pyc
+byte-compiling /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator/robot_controller_node.py to robot_controller_node.cpython-310.pyc
+running install_data
+creating /home/maze/ros2_ws/install/color_navigator/share/ament_index
+creating /home/maze/ros2_ws/install/color_navigator/share/ament_index/resource_index
+creating /home/maze/ros2_ws/install/color_navigator/share/ament_index/resource_index/packages
+copying resource/color_navigator -> /home/maze/ros2_ws/install/color_navigator/share/ament_index/resource_index/packages
+copying package.xml -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator
+creating /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+copying launch/navigate_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+copying launch/Maps_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+creating /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models
+creating /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+copying models/colored_box/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+copying models/colored_box/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+creating /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+copying models/camera_robot/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+copying models/camera_robot/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+creating /home/maze/ros2_ws/install/color_navigator/share/color_navigator/worlds
+copying worlds/box_world.world -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/worlds
+running install_egg_info
+Copying ../../build/color_navigator/color_navigator.egg-info to /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator-0.0.1-py3.10.egg-info
+running install_scripts
+Installing color_detector script to /home/maze/ros2_ws/install/color_navigator/bin
+Installing robot_controller script to /home/maze/ros2_ws/install/color_navigator/bin
+writing list of installed files to '/home/maze/ros2_ws/build/color_navigator/install.log'

@@ -1,0 +1,2 @@
+Invoking command in '/home/maze/ros2_ws/build/color_navigator': /usr/bin/cmake /home/maze/ros2_ws/src/color_navigator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/maze/ros2_ws/install/color_navigator
+Invoked command in '/home/maze/ros2_ws/build/color_navigator' returned '1': /usr/bin/cmake /home/maze/ros2_ws/src/color_navigator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/maze/ros2_ws/install/color_navigator

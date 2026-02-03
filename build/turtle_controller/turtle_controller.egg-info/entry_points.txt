@@ -1,0 +1,3 @@
+[console_scripts]
+hand_control = turtle_controller.hand_control:main
+

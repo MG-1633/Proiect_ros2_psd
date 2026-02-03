@@ -1,0 +1,17 @@
+[1.530s] Invoking command in '/home/maze/ros2_ws/build/turtlebot3_teleop': PYTHONPATH=/home/maze/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[2.057s] running develop
+[2.254s] running egg_info
+[2.254s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.254s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.254s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.255s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.255s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.257s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.258s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.260s] running build_ext
+[2.260s] Creating /home/maze/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.261s] Installing teleop_keyboard script to /home/maze/ros2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.262s] 
+[2.262s] Installed /home/maze/ros2_ws/build/turtlebot3_teleop
+[2.262s] running symlink_data
+[2.306s] Invoked command in '/home/maze/ros2_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/maze/ros2_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/turtlebot3_teleop/build --no-deps symlink_data

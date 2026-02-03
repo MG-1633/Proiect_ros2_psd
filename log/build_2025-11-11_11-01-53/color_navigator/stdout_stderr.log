@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/color_navigator/color_navigator.egg-info/PKG-INFO
+writing dependency_links to ../../build/color_navigator/color_navigator.egg-info/dependency_links.txt
+writing entry points to ../../build/color_navigator/color_navigator.egg-info/entry_points.txt
+writing requirements to ../../build/color_navigator/color_navigator.egg-info/requires.txt
+writing top-level names to ../../build/color_navigator/color_navigator.egg-info/top_level.txt
+reading manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+writing manifest file '../../build/color_navigator/color_navigator.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying models/colored_box/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+copying models/camera_robot/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+running install_egg_info
+removing '/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/color_navigator/color_navigator.egg-info to /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color_navigator-0.0.1-py3.10.egg-info
+running install_scripts
+Installing color_detector script to /home/maze/ros2_ws/install/color_navigator/bin
+Installing robot_controller script to /home/maze/ros2_ws/install/color_navigator/bin
+writing list of installed files to '/home/maze/ros2_ws/build/color_navigator/install.log'

@@ -1,0 +1,27 @@
+[1.234s] Invoking command in '/home/maze/ros2_ws/build/color_navigator': PYTHONPATH=/home/maze/ros2_ws/build/color_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/color_navigator/build --no-deps symlink_data --force
+[1.637s] running develop
+[1.829s] running egg_info
+[1.829s] writing color_navigator.egg-info/PKG-INFO
+[1.830s] writing dependency_links to color_navigator.egg-info/dependency_links.txt
+[1.830s] writing entry points to color_navigator.egg-info/entry_points.txt
+[1.830s] writing requirements to color_navigator.egg-info/requires.txt
+[1.830s] writing top-level names to color_navigator.egg-info/top_level.txt
+[1.832s] reading manifest file 'color_navigator.egg-info/SOURCES.txt'
+[1.833s] writing manifest file 'color_navigator.egg-info/SOURCES.txt'
+[1.835s] running build_ext
+[1.835s] Creating /home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages/color-navigator.egg-link (link to .)
+[1.836s] Installing color_detector script to /home/maze/ros2_ws/install/color_navigator/bin
+[1.837s] Installing robot_controller script to /home/maze/ros2_ws/install/color_navigator/bin
+[1.837s] 
+[1.837s] Installed /home/maze/ros2_ws/build/color_navigator
+[1.837s] running symlink_data
+[1.837s] symbolically linking /home/maze/ros2_ws/build/color_navigator/resource/color_navigator -> /home/maze/ros2_ws/install/color_navigator/share/ament_index/resource_index/packages
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/package.xml -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/launch/navigate_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/launch/Maps_box.launch.py -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/launch
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/models/colored_box/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/models/colored_box/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/colored_box
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/models/camera_robot/model.config -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/models/camera_robot/model.sdf -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/models/camera_robot
+[1.838s] symbolically linking /home/maze/ros2_ws/build/color_navigator/worlds/box_world.world -> /home/maze/ros2_ws/install/color_navigator/share/color_navigator/worlds
+[1.882s] Invoked command in '/home/maze/ros2_ws/build/color_navigator' returned '0': PYTHONPATH=/home/maze/ros2_ws/build/color_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maze/ros2_ws/install/color_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/maze/ros2_ws/build/color_navigator/build --no-deps symlink_data --force

@@ -1,0 +1,12 @@
+source;share/color_navigator/hook/path.ps1
+source;share/color_navigator/hook/path.dsv
+source;share/color_navigator/hook/path.sh
+source;share/color_navigator/hook/pythonpath.ps1
+source;share/color_navigator/hook/pythonpath.dsv
+source;share/color_navigator/hook/pythonpath.sh
+source;share/color_navigator/hook/pythonscriptspath.ps1
+source;share/color_navigator/hook/pythonscriptspath.dsv
+source;share/color_navigator/hook/pythonscriptspath.sh
+source;../../build/color_navigator/share/color_navigator/hook/pythonpath_develop.ps1
+source;../../build/color_navigator/share/color_navigator/hook/pythonpath_develop.dsv
+source;../../build/color_navigator/share/color_navigator/hook/pythonpath_develop.sh
